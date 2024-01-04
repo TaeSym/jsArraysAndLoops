@@ -10,3 +10,6 @@ console.log(timeOfDay);
 timeOfDay.splice(0, 2);
 console.log(timeOfDay);
 
+for (var time of timeOfDay) {
+  console.log(`It is ${time}.`);
+}
