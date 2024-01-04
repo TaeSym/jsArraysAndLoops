@@ -24,3 +24,9 @@ var adultAge = employeeAges.filter(function (item) {
 });
 
 console.log(adultAge);
+
+var lastNames = ["Khan", "Martino", "Martinez", "Li", "Martindale", "Bai"];
+var martinName = lastNames.filter(function (item) {
+  return item.includes("Martin");
+});
+console.log(martinName);
