@@ -12,4 +12,8 @@ console.log(timeOfDay);
 
 for (var time of timeOfDay) {
   console.log(`It is ${time}.`);
-}
+};
+
+timeOfDay.forEach(function (time, index) {
+  console.log(`The ${time} element is at position ${index}.`);
+});
